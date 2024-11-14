@@ -1,6 +1,6 @@
 let urls = location.pathname.split('/')
 
-let imgurl = urls[urls.length - 1]
+let imgurl = urls[urls.length - 1].replace(',', '/')
 
 let imgEle = document.getElementById("dimg")
 
